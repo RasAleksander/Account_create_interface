@@ -1,0 +1,113 @@
+/* Базовые стили */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Стили для списка аккаунтов */
+.account-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.account-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-basis: calc(33.33% - 1rem);
+    box-sizing: border-box;
+}
+
+.account-info {
+    margin-bottom: 1rem;
+}
+
+.account-name {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.account-email {
+    color: #666;
+}
+
+.account-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+
+/* Стили для пагинации */
+.pagination-container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination-link,
+.pagination-current {
+    text-decoration: none;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.pagination-current {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination-link:hover {
+    background-color: #f8f9fa;
+}
+
+.pagination-link:disabled {
+    background-color: #ddd;
+    color: #666;
+    pointer-events: none;
+}
+
+.pagination-link:hover:not([disabled]) {
+    background-color: #45a049;
+    color: white;
+}
