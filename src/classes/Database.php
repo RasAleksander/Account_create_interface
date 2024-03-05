@@ -2,7 +2,7 @@
 class Database
 {
     private $host = "localhost";
-    private $dbname = "Zimalab_test";
+    private $dbname = "Account_base";
     private $username = "root";
     private $password = '$sudo';
     private $conn;
