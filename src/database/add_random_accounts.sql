@@ -1,8 +1,8 @@
 -- Создаем базу данных, если она не существует
-CREATE DATABASE IF NOT EXISTS Zimalab_test;
+CREATE DATABASE IF NOT EXISTS Account_base;
 
 -- Используем созданную базу данных
-USE Zimalab_test;
+USE Account_base;
 
 -- Создаем таблицу аккаунтов, если она не существует
 CREATE TABLE IF NOT EXISTS accounts (
